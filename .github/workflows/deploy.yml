@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest  # Cambiamos a ubuntu-latest en lugar de windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
